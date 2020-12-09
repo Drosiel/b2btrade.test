@@ -32,6 +32,7 @@
 		"eslint-plugin-react": "^7.20.6",
 		"eslint-plugin-react-hooks": "^4.1.0",
 		"file-loader": "^5.0.2",
+		"gh-pages": "^3.1.0",
 		"html-webpack-plugin": "^3.2.0",
 		"mini-css-extract-plugin": "^0.9.0",
 		"node-sass": "^4.13.1",
@@ -44,6 +45,7 @@
 		"typescript": "^3.9.3",
 		"webpack-cli": "^3.3.10"
 	},
+	"homepage": "https://github.com/Drosiel/b2btrade.test",
 	"dependencies": {
 		"@types/react-redux": "^7.1.9",
 		"axios": "^0.21.0",
@@ -59,7 +61,8 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
