@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Drosiel/b2btrade.test/static/css/main.31f73cf2.chunk.css",
-    "main.js": "/Drosiel/b2btrade.test/static/js/main.22e959f0.chunk.js",
-    "main.js.map": "/Drosiel/b2btrade.test/static/js/main.22e959f0.chunk.js.map",
-    "runtime-main.js": "/Drosiel/b2btrade.test/static/js/runtime-main.8535c93f.js",
-    "runtime-main.js.map": "/Drosiel/b2btrade.test/static/js/runtime-main.8535c93f.js.map",
-    "static/js/2.f03e3f15.chunk.js": "/Drosiel/b2btrade.test/static/js/2.f03e3f15.chunk.js",
-    "static/js/2.f03e3f15.chunk.js.map": "/Drosiel/b2btrade.test/static/js/2.f03e3f15.chunk.js.map",
-    "index.html": "/Drosiel/b2btrade.test/index.html",
-    "precache-manifest.ca4e89ab6465fcc2374232bed399e05b.js": "/Drosiel/b2btrade.test/precache-manifest.ca4e89ab6465fcc2374232bed399e05b.js",
-    "service-worker.js": "/Drosiel/b2btrade.test/service-worker.js",
-    "static/css/main.31f73cf2.chunk.css.map": "/Drosiel/b2btrade.test/static/css/main.31f73cf2.chunk.css.map",
-    "static/js/2.f03e3f15.chunk.js.LICENSE.txt": "/Drosiel/b2btrade.test/static/js/2.f03e3f15.chunk.js.LICENSE.txt",
-    "static/media/slider.0b15609c.jpg": "/Drosiel/b2btrade.test/static/media/slider.0b15609c.jpg",
-    "static/media/style.svg": "/Drosiel/b2btrade.test/static/media/style.0b7be79c.svg"
+    "main.css": "/b2btrade.test/static/css/main.31f73cf2.chunk.css",
+    "main.js": "/b2btrade.test/static/js/main.22e959f0.chunk.js",
+    "main.js.map": "/b2btrade.test/static/js/main.22e959f0.chunk.js.map",
+    "runtime-main.js": "/b2btrade.test/static/js/runtime-main.7bd58593.js",
+    "runtime-main.js.map": "/b2btrade.test/static/js/runtime-main.7bd58593.js.map",
+    "static/js/2.f03e3f15.chunk.js": "/b2btrade.test/static/js/2.f03e3f15.chunk.js",
+    "static/js/2.f03e3f15.chunk.js.map": "/b2btrade.test/static/js/2.f03e3f15.chunk.js.map",
+    "index.html": "/b2btrade.test/index.html",
+    "precache-manifest.8c185ad429b48fd91755be8218cd6ac4.js": "/b2btrade.test/precache-manifest.8c185ad429b48fd91755be8218cd6ac4.js",
+    "service-worker.js": "/b2btrade.test/service-worker.js",
+    "static/css/main.31f73cf2.chunk.css.map": "/b2btrade.test/static/css/main.31f73cf2.chunk.css.map",
+    "static/js/2.f03e3f15.chunk.js.LICENSE.txt": "/b2btrade.test/static/js/2.f03e3f15.chunk.js.LICENSE.txt",
+    "static/media/slider.0b15609c.jpg": "/b2btrade.test/static/media/slider.0b15609c.jpg",
+    "static/media/style.svg": "/b2btrade.test/static/media/style.0b7be79c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8535c93f.js",
+    "static/js/runtime-main.7bd58593.js",
     "static/js/2.f03e3f15.chunk.js",
     "static/css/main.31f73cf2.chunk.css",
     "static/js/main.22e959f0.chunk.js"
