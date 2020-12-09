@@ -1,0 +1,65 @@
+.grid
+    display: flex
+    flex-wrap: wrap
+    margin: -10px
+    &--2 .grid__item
+        flex: 0 0 50%
+    &__item
+        flex: 0 0 25%
+        padding: 10px
+
+.card
+    position: relative
+    background: #f1f1f1
+    border-radius: 5px
+    overflow: hidden
+    box-shadow: 0 1px 2px rgba(43,59,77,.24)
+    cursor: pointer
+    height: 100%
+    display: flex
+    flex-direction: column
+    &:hover
+        box-shadow: 0 1px 5px rgba(43,59,77,.2), 0 3px 4px rgba(43,59,77,.12), 0 2px 4px rgba(43,59,77,.14)
+    &__img
+        height: 200px
+        background: #444444
+    &__content
+        padding: 16px
+        flex: 1
+        display: flex
+        flex-direction: column
+        >:not(:last-child)
+            margin-bottom: 16px         
+    &__top
+        flex: 1
+        display: flex
+    &__title
+        flex: 1
+        letter-spacing: .15px
+        font-weight: 500
+        font-size: 1.25rem
+    &__icon
+        fill: #f44336
+        width: 20px
+        height: 20px
+    &__text
+        color: #f44336
+        font-weight: 500
+        font-size: .875rem
+    &__bottom
+        display: flex
+        align-items: center
+    &__price
+        flex: 1
+        font-size: 2.125rem
+        span
+            font-size: .75rem
+    .card__price+.card__basket 
+        margin: 0
+    &__basket
+        margin: 0 0 0 auto
+        &-icon
+            width: 18px
+            height: 18px
+            fill: #fff
+            margin: 0 9px 0 0
