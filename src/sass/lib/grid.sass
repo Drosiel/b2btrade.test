@@ -2,11 +2,15 @@
     display: flex
     flex-wrap: wrap
     margin: -10px
+    justify-content: center
     &--2 .grid__item
         flex: 0 0 50%
+        @media screen and ( max-width: 768px )
+            flex: 0 0 100%
     &__item
         flex: 0 0 25%
         padding: 10px
+            
 
 .card
     position: relative

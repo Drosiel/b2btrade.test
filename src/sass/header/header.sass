@@ -8,3 +8,13 @@
     &__bottom
         padding-top: 32px
         padding-bottom: 32px
+        @media screen and ( max-width: 768px )
+            flex-direction: column
+            >:not(:last-child)
+                margin-bottom: 25px
+                
+        >:first-child
+            margin-right: 20px
+            @media screen and ( max-width: 980px )
+                display: none
+            

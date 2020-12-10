@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/b2btrade.test/precache-manifest.8c185ad429b48fd91755be8218cd6ac4.js"
+  "/b2btrade.test/precache-manifest.ba6bc32446ca1db952836355aaf7eb90.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -4,14 +4,13 @@ import svg from '../../img/style.svg';
 
 import newsdb from '../../general/news';
 import products from '../../general/products';
+import SimpleSlider from '../main/Slider';
 
 export const Main = () => {
 	return (
 		<div className='main'>
 			<div className='slider container'>
-				<div className='slider__inner'>
-					<img src={slider} alt='' />
-				</div>
+				<SimpleSlider />
 			</div>
 
 			<section className='section container'>
@@ -28,7 +27,7 @@ export const Main = () => {
 				<div className='section__body'>
 					<div className='grid grid--2 news'>
 						{newsdb.map((news) => (
-							<div className='grid__item'>
+							<div className='grid__item' key={news.id}>
 								<div className='article'>
 									<div className='article__img'></div>
 									<div className='article__content'>
@@ -77,7 +76,7 @@ export const Main = () => {
 				<div className='section__body'>
 					<div className='grid'>
 						{products.map((prod) => (
-							<div className='grid__item'>
+							<div className='grid__item' key={prod.id}>
 								<div className='card'>
 									<div className='card__img'></div>
 									<div className='card__content'>
@@ -130,7 +129,7 @@ export const Main = () => {
 				<div className='section__body'>
 					<div className='grid'>
 						{products.map((prod) => (
-							<div className='grid__item'>
+							<div className='grid__item' key={prod.id}>
 								<div className='card'>
 									<div className='card__img'></div>
 									<div className='card__content'>
