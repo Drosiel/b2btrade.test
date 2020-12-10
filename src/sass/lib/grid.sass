@@ -2,14 +2,19 @@
     display: flex
     flex-wrap: wrap
     margin: -10px
-    justify-content: center
     &--2 .grid__item
         flex: 0 0 50%
-        @media screen and ( max-width: 768px )
+        @media screen and ( max-width: 480px )
             flex: 0 0 100%
     &__item
         flex: 0 0 25%
         padding: 10px
+        @media screen and ( max-width: 1200px )
+            flex: 0 0 calc( 100% / 3 )
+        @media screen and ( max-width: 980px )
+            flex: 0 0 calc( 100% / 2 )
+        @media screen and ( max-width: 768px )
+            flex: 0 0 100%
             
 
 .card
@@ -53,6 +58,8 @@
     &__bottom
         display: flex
         align-items: center
+        >:not(:last-child)
+            margin-right: 10px
     &__price
         flex: 1
         font-size: 2.125rem

@@ -33,7 +33,7 @@ export const Header = () => {
 								<option value='везде'>везде</option>
 							</select>
 						</div>
-						<button className='btn'>Найти</button>
+						<button className='btn search__btn'>Найти</button>
 					</div>
 				</div>
 				<div className='auth'>
