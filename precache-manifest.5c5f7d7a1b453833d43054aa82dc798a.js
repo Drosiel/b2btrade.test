@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fcfbd1841f9e603a42133e1988f122f",
+    "revision": "a7bd84f7a1217fb268944ea04887e277",
     "url": "/b2btrade.test/index.html"
   },
   {
-    "revision": "22c72471ed796ab80bc9",
-    "url": "/b2btrade.test/static/css/main.417eb4c8.chunk.css"
+    "revision": "bd7cf111b32b56a939e2",
+    "url": "/b2btrade.test/static/css/main.f5dc20dd.chunk.css"
   },
   {
     "revision": "f731cd05f0ca3faa05a7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/b2btrade.test/static/js/2.c0103941.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22c72471ed796ab80bc9",
-    "url": "/b2btrade.test/static/js/main.982fdf2e.chunk.js"
+    "revision": "bd7cf111b32b56a939e2",
+    "url": "/b2btrade.test/static/js/main.ca278be1.chunk.js"
   },
   {
     "revision": "7e40b426e16a2e9ee687",
